@@ -1,0 +1,66 @@
+body {
+  background-color: rgb(206, 206, 204);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  line-height: normal;
+}
+
+h1 h3 {
+  color: rgb(80, 80, 80);
+  text-align: center;
+}
+h4{
+  color: #796aec;
+}
+#profile {
+  width: 100px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.icon:hover {
+  background-color: #C37500;
+
+}
+
+.container {
+
+  margin: 0px auto;
+
+}
+
+.card {
+  background-color: white;
+  border: 1px solid rgb(248, 245, 245);
+  padding: 10px 40px;
+  margin: 10px 300px;
+  border-radius: 1%;
+  box-shadow: 2px 2px 3px rgb(235, 235, 241);
+}
+
+.list-style {
+  display: inline-block;
+  padding: 0 20px;
+}
+.discover{
+  border: 1px rgb(60, 255, 0) solid;
+  background-color: #9ee27f;
+  padding: 10px;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: none;
+
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
